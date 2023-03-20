@@ -87,7 +87,7 @@ initTime();
 				tabContent.classList = "task-content";
 					
 				const image = document.createElement("img");
-				image.src = "Img/" + currcontent.category + ".png";
+				image.src =  currcontent.category + ".png";
 		
 				const title = document.createElement("h2");
 				title.innerHTML = currcontent.title;
@@ -223,7 +223,7 @@ initTime();
 		let teDisplay = document.querySelector(".lower-input-view button:nth-child(3) span");
 		let imgDisplay = document.querySelector(".task-form-view img");
 
-		imgDisplay.src = "Img/" + c + ".png";
+		imgDisplay.src = + c + ".png";
 
 		title.innerHTML = t;
 		desc.innerHTML = d;
@@ -353,13 +353,13 @@ initTime();
 		if (val == 0) {
 			//window.location.href = "#schedule";
 			document.getElementById('schedule').scrollIntoView({behavior:"smooth"});
-			document.querySelector(".navbar button:first-child img").src = "Img/category.png";
-			document.querySelector(".navbar button:last-child img").src = "Img/chart-glyph.png";
+			document.querySelector(".navbar button:first-child img").src = "category.png";
+			document.querySelector(".navbar button:last-child img").src = "chart-glyph.png";
 		}else{
 			//window.location.href = "#stats";
 			document.getElementById('stats').scrollIntoView({behavior:"smooth"});
-			document.querySelector(".navbar button:last-child img").src = "Img/chart.png";
-			document.querySelector(".navbar button:first-child img").src = "Img/category-glyph.png";
+			document.querySelector(".navbar button:last-child img").src = "chart.png";
+			document.querySelector(".navbar button:first-child img").src = "category-glyph.png";
 		}
 	}
 	
