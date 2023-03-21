@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
 <center><h1>Task Manager</h1></center>
     <h2>Introduction</h2>
     <p>The Task Manager is a utility in Windows operating system that provides detailed information about the processes, services, and performance of the system. It allows users to monitor and manage the resources used by the system and applications.
@@ -33,3 +41,5 @@
             <li><a href="https://developer.mozilla.org/en-US/" style="text-decoration: none;">MDN Web Docs</a></li>
             
         </ol>
+        </body>
+        </html>
